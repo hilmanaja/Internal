@@ -12,6 +12,7 @@ class Student extends Model
         'nama','jk','alamat','agama','asal_sekolah','minat_jurusan'
     ];
     protected $table='student';
+    
     public function getAutoNumberOptions()
     {
         return [

@@ -46,7 +46,7 @@ class StudentController extends Controller
             'minat_jurusan'=>'required',
         ]);
         Student::create($request->all());
-        return redirect()->route('student.index')->with('success', 'Selamat, Anda Sudah Terdaftar Di SMK Merdeka Belajar');
+        return redirect()->route('landing')->with('success', 'Selamat, Anda Sudah Terdaftar Di SMK Merdeka Belajar');
     }
 
     /**

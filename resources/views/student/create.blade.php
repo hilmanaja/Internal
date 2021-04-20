@@ -89,7 +89,7 @@
                         <div class="card-footer text-right">
                             <button class="btn btn-primary mr-1" type="submit">Submit</button>
                             <button class="btn btn-secondary" type="reset">Reset</button>
-                            <a href="{{ route('student.index') }}" class="btn btn-secondary shadow">Back</a>
+                            <a href="{{ route('landing') }}" class="btn btn-secondary shadow">Back</a>
                         </div>
                 </form>
              </div>

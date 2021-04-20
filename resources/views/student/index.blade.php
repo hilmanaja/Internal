@@ -49,7 +49,7 @@
                             <td>{{$data->minat_jurusan}}</td>
                             <td>
                                 <a href="{{route('student.edit', $data->id)}}" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
-                                <a href="{{route('student.cetak', $data->id)}}" class="btn px-2 btn-sm btn-primary shadow"><i class="fa fa-fax"></i></a>
+                                <a href="{{route('student.cetak', $data->id)}}" class="btn px-2 btn-sm btn-primary shadow"><i class="fa fa-print"></i></a>
                                 <form action="{{route('student.destroy', $data->id)}}" method="POST">
                                     @csrf
                                     @method('DELETE')
@@ -59,7 +59,9 @@
                         </tr>
                     @endforeach
                 </tbody>
+              
             </table>
+            <!--<a href="{{ route('landing') }}" class="btn btn-secondary shadow"><i class="fa fa-backward"></i>Back To Home</a>-->
         </div>
     </div>
 </div>
