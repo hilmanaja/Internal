@@ -61,7 +61,7 @@
                 </tbody>
               
             </table>
-            <!--<a href="{{ route('landing') }}" class="btn btn-secondary shadow"><i class="fa fa-backward"></i>Back To Home</a>-->
+            <a href="{{ route('home') }}" class="btn btn-secondary shadow"><i class="fa fa-backward"></i>Back To Home</a>
         </div>
     </div>
 </div>

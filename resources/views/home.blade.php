@@ -8,13 +8,12 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    <ul class="list-group list-group-flush">
+                       
+                            <li class="list-group-item"><a href="{{ route('student.index') }}"> Pendaftar</a></li>
+                        
+                    </ul>
 
-                    {{ __('You are logged in!') }}
                 </div>
             </div>
         </div>
